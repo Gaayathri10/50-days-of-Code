@@ -1,0 +1,9 @@
+#Day 2: Strings to Integers
+
+def convert_add(x):
+    return sum(map(int, x))
+example = ['1', '3', '5']
+print(example)
+a = list(map(int,example))
+print(str(a))
+print(convert_add(example))
